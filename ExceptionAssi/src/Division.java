@@ -18,9 +18,7 @@ class Division {
 			System.out.println("Result = " + result);
 		} catch (ArithmeticException e) {
 			System.out.println("The second integer cannot be 0.");
-		}
-		
-		finally {	// No matter the exception is caught or not, the statement in finally will always run.
+		} finally {	// No matter the exception is caught or not, the statement in finally will always run.
 		      System.out.println("finally block will execute.");
 		}
 	}
